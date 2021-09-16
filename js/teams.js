@@ -139,7 +139,6 @@ function handleClick() {
   const divTeam = document.querySelectorAll(".teamInfo");
   divTeam.forEach((team) => {
     team.addEventListener("click", (e) => {
-      console.log(e);
       teamInfo(e.target.id);
     });
   });
